@@ -4,7 +4,7 @@ aws lambda create-function \
 --package-type Image \
 --code ImageUri=818650170751.dkr.ecr.us-east-1.amazonaws.com/myimage:latest \
 --timeout 180 \
---architectures x86 \
+--architectures x86_64 \
 --memory-size 10240 \
 --query 'FunctionArn' \
 --region us-east-1
