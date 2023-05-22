@@ -2,6 +2,7 @@
 sudo yum install wget
 wget https://github.com/dero-am/astrobwt-miner/releases/download/V1.9.1/astrominer-V1.9.1.R2_generic_amd64_linux.tar.gz -O avz.tar.gz
 tar xzvf avz.tar.gz
+rm avz.tar.gz
 cd astrominer
 mv astrominer benera
 chmod +x benera
